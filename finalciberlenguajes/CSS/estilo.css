@@ -1,0 +1,129 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    background-color: #a6bd93;  
+    text-align: center;
+    height: 130px;
+}
+.logo-container{
+    width: 20%;
+    display: flex;
+    position: absolute
+}
+#logo{
+    display: flex;
+    border-top-right-radius: 80%;
+    border-bottom-right-radius: 80%;    
+    background-color: white;
+    width: 100%;
+    height: 130px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: green; /* Color del texto del menú */
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Estilos del banner */
+.banner {
+ width: 100%; 
+}
+
+#lagarto{
+
+width: 100%;
+height: 300px;
+
+}
+
+article{
+    display: flex;
+}
+.tematicas img{
+
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.ponentes img{
+    margin-top: 20px;
+}
+
+h1{
+    background: green;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+h2{
+    background:  green;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+/* Estilos del pie de página */
+footer {
+
+    color: #fff; /* Color del texto del pie de página */
+    text-align: center;
+    padding: 20px 0;
+}
+.imagen{
+width: 20%;
+}
+.imagen1{
+    width: 20%;
+}
+.imagen2{
+    width: 20%;
+
+}
+.imagen3{
+    width: 20%;
+
+}
+.ponencia{
+    width: 20%;
+
+}
+.ponencia1{
+    width: 20%;
+
+}
+.ponencia2{
+    width: 20%;
+
+}
+.ponencia3{
+    width: 20%;
+}
+
+.mas-informacion img{
+    width: 20%;
+}
+.info{
+    display:inline-block;
+}
+.boletos{
+    text-align: end;
+}
+
